@@ -173,7 +173,7 @@ svg:active path {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 40px;
+  gap: 6.7rem;
 }
 
 /* Flexbox Utilities */
@@ -251,6 +251,7 @@ svg:active path {
 .hero-img {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .hero-img img {
@@ -359,7 +360,7 @@ svg:active path {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1110px) {
   :root {
     --font-size-small: 14px;
     --font-size-xx-large: 20px;
@@ -417,7 +418,7 @@ svg:active path {
 
   .minutes-img {
     width: 369px;
-    height: 500px;
+    height: 700px;
   }
 
   .minutes-img img {
@@ -472,8 +473,8 @@ svg:active path {
   .header-navigation {
     position: absolute;
     z-index: 1000;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.856);
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.98);
     width: 100%;
     padding: 40px;
     border-radius: 10px;
